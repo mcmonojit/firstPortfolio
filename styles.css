@@ -105,7 +105,7 @@ hr {
 
 .hero .hero-img {
     max-width: 85%;
-    width: 565px;
+    width: 570px;
     display: block;
     margin: auto;
 }
@@ -113,29 +113,29 @@ hr {
 .hero .hero-heading {
     text-align: center;
     font-size: 3.5vw;
-    max-width: 770px;
-    /* max-height: 150px; */
+    max-width: 750px;
+    max-height: 150px;
     margin:auto;
-    padding-top: 1rem 1rem;
+    padding: 1rem 1rem;
     color: var(--dark-gray);
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 110%;
+    font-size: 100%;
 }
 
 .heading-line1{
-    text-align: left;
-    padding-left:2.5rem;
-    font-size: 83%;
+    /* text-align: left; */
+    padding-right: 6vw;
+    font-size: 85%;
 }
 
 .heading-line2{
-    text-align: right;
-    padding-right: 2rem;
-    font-size: 83%;
+    /* text-align: right; */
+    padding-left: 12vw;
+    font-size: 85%;
 }
 
 /** sections **/
@@ -149,7 +149,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
-    max-width: 700px;
+    max-width: 740px;
     margin:auto;
     border-radius: 1.5rem;
 }
