@@ -4,7 +4,7 @@
     --primary-color:#F59E0B;
     --off-white: #F4F4F5; /*#F3F4F6; */
     --dark-gray: #6B7280;
-    --flash:#130630;
+    --flash: #120323; /* #130630*/;
 }
 
 body {
@@ -127,11 +127,11 @@ hr {
 
 .hero .hero-heading {
     text-align: center;
-    font-size: 3.5vw;
-    max-width: 750px;
+    font-size:3.6vw; 
+    max-width: 800px;
     max-height: 150px;
     margin:auto;
-    padding: 1rem 1rem;
+    padding: 1rem 0rem;
     color: var(--dark-gray);
 }
 
@@ -142,14 +142,12 @@ hr {
 }
 
 .heading-line1{
-    /* text-align: left; */
-    padding-right: 6vw;
+    padding-right: 4.6vw;
     font-size: 85%;
 }
 
 .heading-line2{
-    /* text-align: right; */
-    padding-left: 12vw;
+    padding-left: 10.7vw;
     font-size: 85%;
 }
 
