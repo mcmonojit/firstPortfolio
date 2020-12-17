@@ -212,7 +212,6 @@ hr {
     padding-bottom: 6rem;
 }
 
-/* .para{
-    padding-left: 0.3vw;
-    padding-right: 0.3vw;
-} */
+.para {
+    padding: 0rem 1.3rem;
+}
