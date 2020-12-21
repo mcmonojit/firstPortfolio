@@ -5,6 +5,7 @@
     --off-white: #F4F4F5; /*#F3F4F6; */
     --dark-gray: #6B7280;
     --flash: #120323; /* #130630*/;
+    --dark-background:#202020;
 }
 
 body {
@@ -179,7 +180,7 @@ hr {
     padding: 4rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 2.5rem;
+    border-top-right-radius: 3rem;
 }
 
 .footer .link {
@@ -215,6 +216,18 @@ hr {
     padding-bottom: 6rem;
 }
 
+.dark-body{
+    background-color: var(--dark-background);
+    color:var(--off-white);
+}
+
+.hero .whiteH{
+    font-weight: normal;
+    color: var(--off-white);
+}
+
+
 .para {
-    padding: 0rem 1.4rem 2rem 1.4rem;
+    padding: 0rem 1.4rem 4rem 1.4rem;
+    color:var(--off-white);
 }
